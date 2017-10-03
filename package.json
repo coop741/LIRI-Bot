@@ -1,0 +1,26 @@
+{
+  "name": "liri-app",
+  "version": "1.0.0",
+  "description": "Liri will return data from OMDB, Twitter, and Spotify API",
+  "main": "liri.js",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node liri.js my-tweets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coop741/LIRI-Bot.git"
+  },
+  "author": "Trent Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coop741/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/coop741/LIRI-Bot#readme"
+}
